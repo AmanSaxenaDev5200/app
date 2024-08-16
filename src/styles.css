@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.leaflet-container {
+  height: 100vh;
+}
+
+.cluster-icon {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: hsla(62, 74%, 46%, 0.761);
+  transform: translate(-70%, -50%);
+  justify-content: centre;
+  align-items: centre;
+  font-weight: 900;
+  font-size: 2rem;
+}
